@@ -1,0 +1,43 @@
+{
+  "name": "@zkmake/frontend-interview-threejs-ts",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite --host",
+    "start": "vite",
+    "format:check": "prettier --check --cache .",
+    "format:fix": "prettier --write --cache .",
+    "preview": "vite preview",
+    "typecheck": "tsc"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@react-three/drei": "^9.99.4",
+    "@react-three/fiber": "^8.15.16",
+    "@react-three/rapier": "^1.3.0",
+    "clsx": "^2.1.0",
+    "modern-normalize": "^2.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.59",
+    "@types/react-dom": "^18.2.19",
+    "@types/three": "^0.161.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "r3f-perf": "^7.1.2",
+    "sass": "^1.71.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vite-tsconfig-paths": "^4.3.1"
+  }
+}
